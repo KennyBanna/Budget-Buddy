@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # 3rd party gems
+gem 'bootstrap-sass', '3.3.7'
 
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
