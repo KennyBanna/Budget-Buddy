@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is meant to be a site where you log in, create a budget and
+monitor your monthly or weekly expenses. 
 
-Things you may want to cover:
+# TO DO LIST
 
-* Ruby version
+User Model
 
-* System dependencies
+Authentication system, (devise?)
 
-* Configuration
+Budget Model
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
