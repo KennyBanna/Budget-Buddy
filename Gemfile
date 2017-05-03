@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.5'
 # 3rd party gems
 gem 'bootstrap-sass', '3.3.7'
 
+# Use Bcrypt for user authentication
+gem 'bcrypt', '~> 3.1.7'
+
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
