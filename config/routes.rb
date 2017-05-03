@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   
   resources :budget
   
+  resources :budget_events # Nest this?
+  
 end
