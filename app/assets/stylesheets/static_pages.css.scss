@@ -1,3 +1,15 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar.navbar-default{
+  border: 0;
+  border-radius: 0;
+  background-color: #2E70A3;
+}
+
+.jumbotron{
+  background-image: url("Balance2.jpg");
+  text-align: center;
+  font-size: 50px;
+}
