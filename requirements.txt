@@ -3,10 +3,10 @@ BASIC User log in requirements (no remembering)
 Sessions resource with new, create, destroy action DONE
 Session routes to new, create and destroy DONE
 Log in form with email, password+confirmation fields and submit. DONE
--find user by email 
--if user.authenticate(password) .authenticate is provided by bcrypt
--sessions[:user_id].create
-Redirection to user
+-find user by email DONE
+-if user.authenticate(password) .authenticate is provided by bcrypt DONE
+-sessions[:user_id].create DONE
+Redirection to user DONE
 
 Helpful methods
 return current user
