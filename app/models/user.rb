@@ -10,4 +10,16 @@ class User < ApplicationRecord
                                               message: "is not a valid email" }
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   
+  # Method to create password digest for user fixtures
+  def User.digest(string)
+    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
+                                                  BCrypt::Engine.cost
+    # Equal code
+    # if ActiveModel::SecurePassword.min_cost
+    #   cost = BCrypt::Engine.MIN_COST
+    # else
+    #   cost = BCrupt::Engie.cost
+    # end
+    BCrypt::Password.create(string, cost: cost)
+  end
 end

@@ -9,10 +9,12 @@ oskar:
   first_name: "Oskar"
   last_name: "Norin"
   email: "oskar_norin@example.com"
+  password_digest: <%= User.digest("password") %>
   
 niels: 
   first_name: "Niels"
   last_name: "Bohr"
   email: "nielsbohr@example.com"
+  password_digest: <%= User.digest("password") %>
   
   
