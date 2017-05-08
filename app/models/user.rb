@@ -1,5 +1,7 @@
 class User < ApplicationRecord
   
+  has_many :budgets
+  
   has_secure_password # Method from BCrypt gem.
   
   validates :first_name, :last_name, presence: true, length: { maximum: 45 },  

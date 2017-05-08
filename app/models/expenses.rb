@@ -1,4 +1,4 @@
-class BudgetEvent < ApplicationRecord
+class Expense < ApplicationRecord
   
   belongs_to :budget
   
